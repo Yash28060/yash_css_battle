@@ -1,0 +1,162 @@
+/* .container {
+    background-image: radial-gradient( rgba(0, 0, 0, 0.7) 25%, rgb(132, 132, 132));
+    box-shadow: 10px 20px 30px 20px rgb(79, 79, 79);
+    border-radius: 10%;
+    width: 560px;
+    height: 350px;
+    position: absolute;
+    left: 10px;
+    top: 35px;
+} */
+
+.bigger {
+    /* background-color: rgb(236, 236, 236); */
+    /* box-shadow: 0 0 10px 10px rgb(155, 155, 155); */
+    border-radius: 10%;
+    position: absolute;
+    left: 25vw;
+    top: 18vh;
+    background-color: rgb(58, 58, 58);
+    box-shadow: 0px 0px 30px 20px rgb(207 207 207 / 65%) inset;
+    height: 400px;
+    width: 600px;
+}
+
+.circles {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+    border: 1vh grey solid;
+    position: absolute;
+    left: 12vw;
+    top: 3.5vw;
+}
+
+.inner_circles {
+    border: black solid 1px;
+    border-radius: 50%;
+    /* position: absolute; */
+    /* left: auto;
+    right: auto;
+    top: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    /* height: 20px;
+    width: 20px; */
+}
+
+.lens {
+    background-color: grey;
+    border: none;
+    clip-path: polygon(50% 50%, 50% 100%, 100% 100%);
+}
+
+.lens {
+    position: absolute;
+    clip-path: polygon( 50% 100%, 100% 100%, 50% 50%);
+}
+
+.flash {
+    height: 90px;
+    width: 169px;
+    left: 40%;
+    top: 8%;
+    border: 1px black solid;
+    position: absolute;
+    background-color: rgb(35, 33, 33);
+    border-radius: 10px;
+    box-shadow: white 0 5px 25px 10px inset;
+}
+
+.flash_inner {
+    background-color: rgb(169, 166, 166);
+    height: 52px;
+    width: 108px;
+    border: black solid 2px;
+    position: absolute;
+    left: 18px;
+    top: 13px;
+    border-radius: 3px;
+}
+
+.line {
+    position: absolute;
+    width: 87px;
+    height: 5px;
+    left: 10%;
+    top: 80%;
+    background-color: white;
+}
+
+.flash_ball {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(217, 217, 217);
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    border-radius: 50%;
+}
+
+#flash_ball {
+    width: 17px;
+    height: 17px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    left: 9px;
+    top: 16px;
+    position: absolute;
+    background-color: white;
+}
+
+.cxi {
+    font-weight: bold;
+    font-size: xx-large;
+    color: gold;
+    text-shadow: 2px 1px 2px black;
+    z-index: 1;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+}
+
+.strips {
+    height: 50px;
+    width: 180px;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 38%;
+    left: 70%;
+}
+
+.strips1 {
+    height: 12px;
+    width: 180px;
+    background-color: white;
+    z-index: 2;
+    position: absolute;
+    top: 41%;
+    left: 0;
+}
+
+.button {
+    height: 50px;
+    width: 70px;
+    background-color: red;
+    position: absolute;
+    z-index: -1;
+    border-radius: 25%;
+    top: 16%;
+    left: 30%;
+}

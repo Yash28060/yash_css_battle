@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbody {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        
+        .box {
+            border: 45px solid orange;
+            width: 600PX;
+            height: 480PX;
+            /* background-color: rgb(219, 169, 31); */
+            border-radius: 5%;
+            margin-top: 5%;
+        }
+        
+        .container {
+            background-color: green;
+            height: 480px;
+            width: 600px;
+            z-index: -1;
+        }
+        
+        .smallrectangle {
+            position: absolute;
+            top: 72.8%;
+            left: 57%;
+            background-color: #ffff;
+            height: 30px;
+            width: 140px;
+        }
+        
+        .parallel {
+            position: absolute;
+            top: 76.7%;
+            left: 58.2%;
+            height: 44px;
+            width: 142px;
+            background-color: rgba(0, 0, 0, 0.2);
+            transform: skew(40deg);
+        }
+        
+        .figa {
+            height: 100px;
+            width: 100px;
+            background-color: #ffff;
+            border-radius: 50%;
+            position: absolute;
+            top: 28%;
+            left: 46%;
+            z-index: 1;
+        }
+        
+        .figa1 {
+            height: 130px;
+            width: 220px;
+            background-color: #ffff;
+            border-radius: 90px 90px 0 0;
+            position: absolute;
+            top: 42%;
+            left: 42%;
+            z-index: 1;
+        }
+        
+        .figb {
+            height: 90px;
+            width: 90px;
+            background-color: rgba(255, 255, 255, 0.652);
+            border-radius: 50%;
+            position: absolute;
+            top: 28%;
+            left: 38%;
+            -webkit-box-reflect: right 170px;
+        }
+        
+        .figb1 {
+            height: 110px;
+            width: 220px;
+            background-color: rgba(255, 255, 255, 0.652);
+            border-radius: 90px 90px 0 0;
+            position: absolute;
+            top: 42%;
+            left: 34%;
+            z-index: 0;
+            -webkit-box-reflect: right 45px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="box">
+            <div class="container">
+                <div class="figa"></div>
+                <div class="figa1"></div>
+                <div class="figb"></div>
+                <div class="figb1"></div>
+                <div class="smallrectangle"></div>
+                <div class="parallel"></div>
+            </div>
+        </div>
+    </div>
+    <h1>Google Classroom!</h1>
+</body>
+
+</html>

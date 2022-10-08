@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbody {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        h1 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        }
+        
+        .container {
+            padding: 25%;
+            margin-left: 1rem;
+            background-color: transparent;
+            z-index: -3;
+            animation-name: example;
+            animation-duration: 4s;
+        }
+        
+        .outerCircle {
+            background-color: black;
+            height: 500px;
+            width: 500px;
+            border-radius: 50%;
+            position: absolute;
+            top: 10%;
+            left: 30%;
+            border: 45px solid maroon;
+            z-index: -2;
+        }
+        
+        .cig {
+            height: 260px;
+            width: 60px;
+            background-color: #ffff;
+            border-top: 95px solid rgb(213, 213, 14);
+            transform: rotate(-46deg);
+            position: absolute;
+            top: 13rem;
+            left: 45rem;
+            z-index: -1;
+            overflow: hidden;
+        }
+        
+        .line {
+            height: 32rem;
+            width: 3rem;
+            background-color: maroon;
+            transform: rotate(44deg);
+            position: absolute;
+            top: 7rem;
+            left: 44rem;
+            z-index: 0;
+        }
+        
+        @keyframes example {
+            25% {
+                background-color: rgb(217, 255, 0);
+                border-radius: 30%;
+            }
+            50% {
+                background-color: rgb(10, 121, 2);
+                border-radius: 50%;
+            }
+            75% {
+                background-color: rgb(151, 100, 12);
+                border-radius: 25%;
+            }
+            100% {
+                background-color: black;
+                border-radius: 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainbody">
+        <div class="container">
+            <div class="outerCircle"></div>
+            <div class="cig"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+    <h1>Smoking Kills</h1>
+    <h1>(Refresh the page)</h1>
+
+</body>
+
+</html>
